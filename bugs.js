@@ -1,23 +1,24 @@
-var firstName = "Robert";
+var name = "Robert";
 var nickName = "Bob";
-var petName = Fluffy;
-xar petType = "Turtle";
+var petName = "Fluffy";
+var petType = "Turtle";
+
 if(name == "Robert"){
     console.log("Hi Robert");
 }
 else if(name == "Bob"){
     console("Hi Bob");
 }
-else(name != "Robert"){
+else if(name != "Robert"){
     console.log("Hello Stranger");
 }
-if petType == "Dog" {
+
+if(petType == "Dog") {
     console.log("Time to play fetch");
 }
-if(petType = "Cat"){
+else if(petType == "Cat"){
     console.log("Time to play with a laser pointer");
 }
-else
-    console.log(Time to play with my pet);
+else{
+    console.log("Time to play with my pet");
 }
-
