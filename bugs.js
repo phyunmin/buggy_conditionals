@@ -9,7 +9,7 @@ if(name == "Robert"){
 else if(name == "Bob"){
     console("Hi Bob");
 }
-else if(name != "Robert"){
+else{
     console.log("Hello Stranger");
 }
 
